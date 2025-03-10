@@ -39,7 +39,7 @@ The dataset used in this analysis is **`er_wait_times_ontario_updated.csv`**, co
      ```
      jupyter notebook
      ```
-   - Open the `EDA_Statastical_Test.ipynb` file.
+   - Open the `ER_Wait_Times_Ontario.ipynb` file.
 
 2. **Perform Exploratory Data Analysis (EDA)**
    - The notebook includes data visualization using `matplotlib` and `seaborn`.
