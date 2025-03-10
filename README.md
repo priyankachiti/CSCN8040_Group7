@@ -34,25 +34,24 @@ The dataset used in this analysis is **`er_wait_times_ontario_updated.csv`**, co
 - **Additional Factors**: Day of the week, hospital capacity
 
 ## **Execution Steps**
-1. **Open Jupyter Notebook**
-   - Run the following command in your terminal to start Jupyter Notebook:
+1. **Install Required Dependencies**
      ```
-     jupyter notebook
+     pip install -r requirements.txt
      ```
-   - Open the `ER_Wait_Times_Ontario.ipynb` file.
+2. **Open the `ER_Wait_Times_Ontario.ipynb` file.**
 
-2. **Perform Exploratory Data Analysis (EDA)**
+3. **Perform Exploratory Data Analysis (EDA)**
    - The notebook includes data visualization using `matplotlib` and `seaborn`.
    - Run the respective cells to generate visual insights such as histograms, box plots, and correlation heatmaps.
 
-3. **Conduct Statistical Tests**
+4. **Conduct Statistical Tests**
    - The notebook applies statistical tests such as:
      - **t-test** for comparing means
      - **ANOVA** for multiple group comparisons
      - **Chi-square test** for categorical data
    - Run the respective code cells to compute and interpret statistical values.
 
-4. **Evaluate Hypothesis**
+5. **Evaluate Hypothesis**
    - The notebook assesses hypotheses based on statistical test results.
    - Look for `p-value` calculations and conclusions regarding accepting or rejecting the null hypothesis.
 
