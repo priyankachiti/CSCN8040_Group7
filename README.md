@@ -65,6 +65,6 @@ Statistical tests confirmed significant differences in wait times:
 
 ## 📌 Acknowledgments  
 We extend our gratitude to:  
-- **Professor David Espinosa Carrillo** for guidance and support.  
+- **Professors** for guidance and support.  
 - **Conestoga College** for providing resources to conduct this research.  
 - **Our research team (Group-7)** for collaborative efforts in data analysis and AI integration.
