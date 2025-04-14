@@ -33,6 +33,8 @@ The dataset used in this analysis is **`er_wait_times_ontario_updated.csv`**, co
 - **Wait Times**: Measured in hours before treatment
 - **Additional Factors**: Day of the week, hospital capacity
 
+The other dataset we have combines population and registered nurse data from the last 10 years (2014–2023).
+
 ## **Execution Steps**
 1. **Install Required Dependencies**
      ```
