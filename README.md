@@ -27,13 +27,13 @@ Ensure you have Python installed (recommended: Python 3.7+). Install the require
 ## **Dataset Details**
 We synthesized an ER wait times dataset for Ontario based on real-world statistics, including total visits, CTAS levels, and wait time distributions. The dataset includes Date of visit, CTAS levels, wait times (sampled from normal distributions using real median and 90th percentile values), hospital names, days of the week, and Season. CTAS proportions were assigned realistically, and wait times were adjusted to prevent negative values. Randomized dates and hospital assignments ensured diversity. 
 
-The dataset used in this analysis is **`er_wait_times_ontario_updated.csv`**, containing:
+The dataset used in this analysis is **`er_wait_times_ontario_updated_region_with_stages.csv`**, containing:
 - **Patient Visit Information**: Date, hospital, region
 - **CTAS Levels**: Triage priority levels (I-III, IV-V, Admitted cases)
 - **Wait Times**: Measured in hours before treatment
 - **Additional Factors**: Day of the week, hospital capacity
 
-The other dataset we have combines population and registered nurse data from the last 10 years (2014–2023).
+The other dataset **`Nurse_And_Population_data_2014_to_2023.csv`** which we have combines population and registered nurse data from the last 10 years (2014–2023).
 
 ## **Execution Steps**
 1. **Install Required Dependencies**
